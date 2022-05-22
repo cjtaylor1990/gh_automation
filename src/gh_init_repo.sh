@@ -2,6 +2,7 @@ REPO_NAME=$1
 
 CURRENT_DIR=$(pwd)
 
+# GITHUB_DIR is assumed to be in env. Use export GITHUB_DIR=... to specify.
 REPO_PATH=$GITHUB_DIR/$REPO_NAME
 
 git init $REPO_PATH
